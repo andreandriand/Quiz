@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Online</title>
+    <link rel="stylesheet" href="halamanAwal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Bagian Header -->
+    <div class="header">
+        <h1>Quiz</h1>
+    </div>
+
+    <!-- Bagian Main Content-->
+    <div class="main">
+        <div id="menu-main" class="menu-main" style="display: block;">
+            <div class="title-main">
+                <h1>Dasar Website Quiz</h1>
+            </div>
+            <!-- Tombol start untuk memilih level -->
+            <div class="button start" onclick="showLevel()">
+                <h2>LET'S START</h2>
+            </div>
+            <div id="button-showHide" class="button-showHide" style="display: none;">
+                <div class="button level">
+                    <!-- Tombol untuk level dasar -->
+                    <div class="dasar">
+                        <h2><a href="latihan1.html">Level Dasar</a></h2>
+                    </div>
+                    <!-- Tombol untuk level lanjutan -->
+                    <div class="lanjutan">
+                        <h2><a href="latihan2.html">Level Lanjutan</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Content Peraturan Quis -->
+    <div id="peraturan-quis" class="peraturan-quis" style="display: none;">
+        <!-- Judul Peraturan -->
+        <h1>Peraturan</h1>
+        <!-- Isi dari peraturan Quis -->
+        <ol>
+            <li>Berdo'a dahulu sebelum mengerjakan quiz</li>
+            <li>Semua soal quiz wajib dikerjakan</li>
+            <li>Pilihlah 1 jawaban yang benar, 1 jawaban benar bernilai 10</li>
+            <li>Nilai akan bisa langsung terlihat ketika menekan tombol kirim.</li>
+            <li>Sebelum mengerjakan quiz, wajib menekan tombol mulai di pojok atas kanan untuk menampilkan sebuah waktu</li>
+            <li>Kerjakan quiz sesuai waktu yang telah disediakan</li>
+        </ol>
+        <!-- Tombol Keluar dari peraturan -->
+        <button class="back"><a href="halamanAwal.html">Keluar</a></button>
+    </div>
+
+    <!-- Bagian Fitur -->
+    <div class="fitur">
+        <!-- Tombol Play dan Mute -->
+        <!-- <p id="button1" onclick="soundPlay()" style="display: block;"><i class="fas fa-volume-up"></i></p>
+        <p id="button2" onclick="soundMute()" style="display: none;"><i class="fas fa-volume-mute"></i></p> -->
+        <!-- Tombol Settings -->
+        <p id="peraturan" style="display: block;" onclick="showPeraturan()"><i class="fas fa-book-open"></i></p>
+        <p id="title" class="title" style="display: block;">Peraturan</p>
+    </div>
+
+    <!-- Bagian Footer -->
+    <div class="footer">
+        <p>Quiz Online</Q></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
