@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 00px;
+}
+/* Bagian header */
+.header{
+    background-color: #353b48;
+    width: 100%;
+}
+.header h1{
+    color: white;
+    padding: 20px;
+}
+
+
+
+/* Bagian Main */
+.main{
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .title-main h1{
+    font-size: 100px;
+    color: rgb(221, 5, 124);
+}
+/* Button untuk memilih level */
+.button{
+    text-align: center;
+    color: white;
+}
+.button.start h2{
+    padding: 25px; 
+    width: 785px;
+}
+.button h2{
+    box-sizing: border-box;
+    background-color: blueviolet;
+    margin: 30px;
+    width: 208px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.button h2:hover{
+    background-color: rgb(163, 66, 253);
+}
+.button.level{
+    display: flex;
+    justify-content: space-around;
+}
+.level a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 100px;
+}
+
+/* Button untuk level dasar */
+.dasar h2{
+    background-color: goldenrod;
+}
+.dasar h2:hover{
+    background-color: rgb(255, 192, 31);
+}
+
+/* Button untuk level lanjutan */
+.lanjutan h2{
+    background-color: cornflowerblue;
+}
+.lanjutan h2:hover{
+    background-color: rgb(126, 171, 255);
+}
+
+/* Bagian wadah fitur sound dan peraturan */
+.fitur{
+    font-size: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.fitur p{
+    margin: 5.8px 50px;
+}
+.fitur p:hover{
+    color: orange;
+}
+.title{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Bagian content Peraturan QUIS */
+.peraturan-quis{
+    font-size: 25px;
+    height: 438px;
+    margin-top: -480px;
+    padding: 70px;
+}
+.peraturan-quis h1{
+    text-align: center;
+    font-weight: bold;
+}
+.peraturan-quis ol{
+    margin-top: 50px;
+}
+.peraturan-quis li{
+    padding: 10px;
+}
+
+
+/* Bagian icon pada peraturan QUIS */
+.peraturan-quis button{
+    width: 70px;
+    height: 50px;
+    margin: 30px 580px;
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 10px;
+}
+.peraturan-quis button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 14px;
+}
+.back{
+    background-color: rgb(250, 71, 71);  
+}
+.back:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+
+
+
+/* Bagian Footer */
+.footer{
+    width: 100%;
+    background-color: #353b48;
+    color: white;
+    text-align: center;
+}
+.footer p{
+    padding: 15px;
+}
