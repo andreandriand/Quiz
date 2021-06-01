@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz | Online</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Quiz Level Lanjutan</h1>
+      <div class="box-timer">
+        <p id="timer1" class="timer">Jika sudah siap silahkan klik mulai (waktu 900 detik / 15 menit)</p>
+        <button id="tombolTimer" class="tombolTimer" onclick="update_display_call()" style="display: block;">Mulai</button>
+      </div>
+    </header>
+    <form action="" method="POST" name="myquiz">
+      <div class="soal">1. Perhatikan potongan kode Javascript berikut ini :<br>var arr=new Array(100,350,275,300);<br>
+        Untuk mengambil nilai elemen 275 dari array diatas, perintah yang benar adalah...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan1">a. var nilai=arr[1]<br>
+        <input type="radio" value="b" name="pertanyaan1">b.	var nilai=arr(1)<br>
+        <input type="radio" value="c" id="c1" name="pertanyaan1">c.	var nilai=arr[2] <br>
+        <input type="radio" value="d" name="pertanyaan1">d.	var nilai=arr(2)<br>
+      </div>
+      
+      <br>
+
+      <div class="soal">2. Struktur kondisi yang ada di bahasa Javascript sebagai berikut, kecuali...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c2" name="pertanyaan2">a.	Case<br>
+        <input type="radio" value="b" name="pertanyaan2">b.	Switch<br>
+        <input type="radio" value="c" name="pertanyaan2">c.	if<br>
+        <input type="radio" value="d" name="pertanyaan2">d.	if...else<br>
+      </div>
+    
+      <br>
+
+      <div class="soal">3. Untuk membuat tombol (button) menggunakan tag...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan3">a.	&#60;button&#62;<br>
+        <input type="radio" value="b" name="pertanyaan3">b.	&#60;input type=’button’&#62;<br>
+        <input type="radio" value="c" id="c3" name="pertanyaan3">c.	Jawaban a dan b benar<br>
+        <input type="radio" value="d" name="pertanyaan3">d.	Semua jawaban salah<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">4. Untuk memasukan kode javascript dalam dokumen HTML menggunakan tag...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c4" name="pertanyaan4">a.	&#60;script&#62;<br>
+        <input type="radio" value="b" name="pertanyaan4">b.	&#60;javascript&#62;<br>
+        <input type="radio" value="c" name="pertanyaan4">c.	&#60;js&#62;<br>
+        <input type="radio" value="d" name="pertanyaan4">d.	Jawaban a, b dan c benar semuanya<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">5. Bagaimana Anda membulatkan angka 7,25, ke bilangan bulat terdekat...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan5">a.	Math.rnd(7.25)<br>
+        <input type="radio" value="b" name="pertanyaan5">b.	rnd(7.25)<br>
+        <input type="radio" value="c" name="pertanyaan5">c.	round(7.25)<br>
+        <input type="radio" value="d" id="c5" name="pertanyaan5">d.	Math.round(7.25)<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">6. Sintaks javascript untuk mengatur gaya tampilan elemen HTML yang benar dibawah ini adalah...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan6">a.	document.getElementById(namaID).object.namaProperti=nilaiProperti;<br>
+        <input type="radio" value="b" id="c6" name="pertanyaan6">b.	document.getElementById(namaID).css.namaProperti=nilaiProperti;<br>
+        <input type="radio" value="c" name="pertanyaan6">c.	document.getElementById(namaID).presentation.namaProperti=nilaiProperti;<br>
+        <input type="radio" value="d" name="pertanyaan6">d.	document.getElementById(namaID).style.namaProperti=nilaiProperti<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">7. Bagaimana cara agar bisa mendeteksi nama browser klien...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c7" name="pertanyaan7">a.	navigator.appName <br>
+        <input type="radio" value="b" name="pertanyaan7">b.	browser.name<br>
+        <input type="radio" value="c" name="pertanyaan7">c.	client.navName<br>
+        <input type="radio" value="d" name="pertanyaan7">d.	Semua jawaban salah<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">8. Jenis-jenis node di Javascript adalah...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c8" name="pertanyaan8">a.	elemen, atribut, text, document<br>
+        <input type="radio" value="b" name="pertanyaan8">b.	HTML, atribut, document<br>
+        <input type="radio" value="c" name="pertanyaan8">c.	CSS, elemen, text, document<br>
+        <input type="radio" value="d" name="pertanyaan8">d.	HTML, CSS, atribut, document<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">9. Didalam sebuah kode script ada tertulis seperti ini document.bgColor="red",apakah arti dari kode script tersebut...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c9" name="pertanyaan9">a. Memberikan warna merah pada background page<br>
+        <input type="radio" value="b" name="pertanyaan9">b. Memberikan warna merah untuk tulisan pada page<br>
+        <input type="radio" value="c" name="pertanyaan9">c. Memberikan warna merah pada link document<br>
+        <input type="radio" value="d" name="pertanyaan9">d. Memberikan warna merah pada link dari halaman web<br>
+      </div>
+    
+      <br>
+
+      <div class="soal">10. Didalam sebuah kode script ada tertulis seperti ini document.fgColor="red",apakah arti dari kode script tersebut...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan10">a. Memberikan warna merah pada background page<br>
+        <input type="radio" value="b" id="c10" name="pertanyaan10">b. Memberikan warna merah untuk tulisan pada page<br>
+        <input type="radio" value="c" name="pertanyaan10">c. Memberikan warna merah pada link document<br>
+        <input type="radio" value="d" name="pertanyaan10">d. Memberikan warna merah pada link dari halaman web<br>
+      </div>
+    
+      <br>
+
+      <div class="soal">11. Fungsi yang digunakan untuk merubah satu nilai dari suatu variabel menjadi bilangan desimal adalah...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan11">a. parseInt()<br>
+        <input type="radio" value="b" name="pertanyaan11">b. eval=(nama variabel)<br>
+        <input type="radio" value="c" name="pertanyaan11">c. window.close<br>
+        <input type="radio" value="d" id="c11" name="pertanyaan11">d. parseFloat()<br>
+      </div>
+    
+      <br>
+
+      <div class="soal">12. Di dalam HTML onfocus merupakan bagian dari atribut...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan12">a. atribut style<br>
+        <input type="radio" value="b" id="c12" name="pertanyaan12">b. atribut event<br>
+        <input type="radio" value="c" name="pertanyaan12">c. atribut media<br>
+        <input type="radio" value="d" name="pertanyaan12">d. atribut html<br>
+      </div>
+
+      <div class="soal">13. Apa sintaks javascript yang benar untuk mengubah konten elemen HTML di bawah ini ?<br>&#60;p id=”demo”&#62; Ini adalah demonstrasi.&#60;/p&#62;</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan13">a. document.getElementByName(“p”).innerHTML = “Hello World!”;<br>
+        <input type="radio" value="b" name="pertanyaan13">b. document.getElement (“p”).innerHTML = “Hello World!”;<br>
+        <input type="radio" value="c" name="pertanyaan13">c. #demo.innerHTML = “Hello World!”;<br>
+        <input type="radio" value="d" id="c13" name="pertanyaan13">d. document.getElementById(“demo”).innerHTML = “Hello World!”;<br>
+      </div>
+    
+      <br>
+
+      <div class="soal">14. Script dari javasscript dapat di tempatkan pada...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan14">a. Body, Header, Title<br>
+        <input type="radio" value="b" name="pertanyaan14">b. Header, Title, Html<br>
+        <input type="radio" value="c" name="pertanyaan14">c. Title, Body, External Fil<br>
+        <input type="radio" value="d" id="c14" name="pertanyaan14">d. Body, Header, External File<br>
+      </div>
+
+      <br>
+
+      <div class="soal">15. Bagaimana cara menulis pernyataan IF di JavaScript...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c15" name="pertanyaan15">a. if (i == 5)<br>
+        <input type="radio" value="b" name="pertanyaan15">b. if i = 5<br>
+        <input type="radio" value="c" name="pertanyaan15">b. if i = 5<br>
+        <input type="radio" value="d" name="pertanyaan15">d. if i + 5<br>
+      </div>
+    
+    </form>
+    <div class="submit">
+      <button class="back"><a href="halamanAwal.html">Keluar</a></button>
+      <button class="enter" onclick="totalNilai()"><a href="#">Kirim</a></button>
+    </div>
+    <div class="footer">
+      <p>Quis Online</p>
+    </div>
+    <script src="value2.js"></script>
+    
+  </body>
+</html>
