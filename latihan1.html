@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz | Online</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Quiz Level Dasar</h1>
+      <div class="box-timer">
+        <p id="timer1" class="timer">Jika sudah siap silahkan klik mulai (waktu 600 detik / 10 menit)</p>
+        <button id="tombolTimer" class="tombolTimer" onclick = "update_display_call()" style="display: block;">Mulai</button>
+      </div>
+    </header>
+    <form action="" method="POST" name="myquiz">
+      <div class="soal">1. Jika kita ingin membuat drop-down list, kita perlu menggunakan tag...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan1">a. &#60;drop-down&#62;<br>
+        <input type="radio" value="b" id="c1" name="pertanyaan1">b. &#60;select&#62;<br>
+        <input type="radio" value="c" name="pertanyaan1">c. &#60;input type='drop-down'&#62;<br>
+        <input type="radio" value="d" name="pertanyaan1">d. &#60;input type='drop-up'&#62;<br>
+      </div>
+      
+      <br>
+
+      <div class="soal">2. Tag &#60;ol&#62; digunakan untuk membuat list...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan2">a. List tidak terurut<br>
+        <input type="radio" value="b" id="c2" name="pertanyaan2">b.	List terurut<br>
+        <input type="radio" value="c" name="pertanyaan2">c. List tunggal<br>
+        <input type="radio" value="d" name="pertanyaan2">d.	List jamak<br>
+      </div>
+    
+      <br>
+
+      <div class="soal">3. Dalam atribut style properti yang digunakan untuk menentukan jenis huruf yaitu...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan3">a.	font-size<br>
+        <input type="radio" value="b" name="pertanyaan3">b.	text-font<br>
+        <input type="radio" value="c" id="c3" name="pertanyaan3">c.	font-family<br>
+        <input type="radio" value="d" name="pertanyaan3">d.	background-color<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">4.	Cara untuk membuat komentar di HTML adalah...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c4" name="pertanyaan4">a.	Dimulai dengan &#60;!– diakhiri dengan –&#62;<br>
+        <input type="radio" value="b" name="pertanyaan4">b.	Dimulai dengan //diakhiri dengan //<br>
+        <input type="radio" value="c" name="pertanyaan4">c.	Dimulai dengan // diakhiri dengan *//<br>
+        <input type="radio" value="d" name="pertanyaan4">d.	Tidak ada jawaban yang benar<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">5.	Tag yang untuk menentukan kelompok dari satu kolom atau lebih dalam sebuah tabel untuk performatan adalah...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan5">a.	&#60;footer&#62;<br>
+        <input type="radio" value="b" id="c5" name="pertanyaan5">b.	&#60;colgroup&#62;<br>
+        <input type="radio" value="c" name="pertanyaan5">c.	&#60;groupcol&#62;<br>
+        <input type="radio" value="d" name="pertanyaan5">d.	&#60;div&#62;<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">6.	Tag yang digunakan untuk menampilkan informasi dalam bentuk list adalah...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c6" name="pertanyaan6">a.	&#60;li&#62;<br>
+        <input type="radio" value="b" name="pertanyaan6">b.	&#60;ul&#62;<br>
+        <input type="radio" value="c" name="pertanyaan6">c.	&#60;ol&#62;<br>
+        <input type="radio" value="d" name="pertanyaan6">d.	&#60;tr&#62;<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">7.	Untuk membuat baris baru menggunakan tag...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c7" name="pertanyaan7">a.	&#60;br&#62;<br>
+        <input type="radio" value="b" name="pertanyaan7">b.	&#60;newline&#62;<br>
+        <input type="radio" value="c" name="pertanyaan7">c.	&#60;break&#62;<br>
+        <input type="radio" value="d" name="pertanyaan7">d.	&#60;hr&#62;<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">8.	Fungsi sebuah tag &#60;a href="https://www.petanikode.com"&#62; belajar html &#60;/a&#62; adalah...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan8">a. Untuk memberikan teks petanikode.com pada halaman web<br>
+        <input type="radio" value="b" id="c8" name="pertanyaan8">b.	Untuk memberikan tombol/link menuju ke halaman https://www.petanikode.com<br>
+        <input type="radio" value="c" name="pertanyaan8">c.	Untuk memberikan penomoran pada tulisan belajar html<br>
+        <input type="radio" value="d" name="pertanyaan8">d.	Untuk memberikan format judul pada tulisan https://www.petanikode.com<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">9.	Atribut alt pada tag &#60;img&#62; berfungsi untuk...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" id="c9" name="pertanyaan9">a. Menampilkan alternatif teks ketika gambar tidak bisa ditampilkan<br>
+        <input type="radio" value="b" name="pertanyaan9">b.	Membuat gambar dengan animasi<br>
+        <input type="radio" value="c" name="pertanyaan9">c.	Mengatur ukuran gambar<br>
+        <input type="radio" value="d" name="pertanyaan9">d.	Mengatur jarak gambar dengan elemen lain<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">10.	Elemen &#60;canvas&#62; digunakan untuk...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan10">a. Manipulasi data<br>
+        <input type="radio" value="b" name="pertanyaan10">b. Menampilkan jenis huruf<br>
+        <input type="radio" value="c" id="c10" name="pertanyaan10">c. Membuat grafis<br>
+        <input type="radio" value="d" name="pertanyaan10">d. Memampilkan gambar dinamis<br>
+      </div>
+  
+      <br>
+
+      <div class="soal">11. Berikut ini atribut yang digunakan dalam form kecuali...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan11">a. method<br>
+        <input type="radio" value="b" name="pertanyaan11">b. name<br>
+        <input type="radio" value="c" name="pertanyaan11">c. action<br>
+        <input type="radio" value="d" id="c11" name="pertanyaan11">d. placeholder<br>
+      </div>
+    
+      <br>
+
+      <div class="soal">12. Properti float akan membuat elemen ditampilkan berjajar ke kiri atau ke 
+        kanan. Properti clear biasa digunakan berpasangan dengan float. Nilai yang 
+        bisa diberikan untuk properti clear adalah...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan12">a. pixel, procentage, absolute <br>
+        <input type="radio" value="b" name="pertanyaan12">b. top, bottom, middle<br>
+        <input type="radio" value="c" name="pertanyaan12">c. ball, none, inherit <br>
+        <input type="radio" value="d" id="c12" name="pertanyaan12">d. left, right, both <br>
+      </div>
+    
+      <br>
+
+      <div class="soal">13. Status posisi suatu elemen dapat diatur menggunakan properti position yang 
+        dapat bernilai...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan13">a. left, right, center, justify <br>
+        <input type="radio" value="b" name="pertanyaan13">b. auto, %, piksel, inherit<br>
+        <input type="radio" value="c" name="pertanyaan13">c. top, bottom, middle<br>
+        <input type="radio" value="d" id="c13" name="pertanyaan13">d. fixed, relative, static, absolute<br>
+      </div>
+    
+      <br>
+
+      <div class="soal">14. Untuk membuat radio button mengunakan sintax...</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan14">a. &#60;radio&#62;<br>
+        <input type="radio" value="b" name="pertanyaan14">b. &#60;input type=’radio_button’&#62;<br>
+        <input type="radio" value="c" id="c14" name="pertanyaan14">c. &#60;input type=radio’&#62;<br>
+        <input type="radio" value="d" name="pertanyaan14">d. &#60;radio_button&#62;<br>
+      </div>
+    
+      <br>
+
+      <div class="soal">15. Perintah HTML untuk membuat teks berjalan adalah…</div>
+      <div class="pilihan-jawaban">
+        <input type="radio" value="a" name="pertanyaan15">a. Form<br>
+        <input type="radio" value="b" name="pertanyaan15">b. Body<br>
+        <input type="radio" value="c" id="c15" name="pertanyaan15">c. Marquee<br>
+        <input type="radio" value="d" name="pertanyaan15">d. Tr<br>
+      </div>
+    </form>
+    <div class="submit">
+      <button class="back"><a href="halamanAwal.html">Keluar</a></button>
+      <button class="enter" onclick="totalNilai()"><a href="#">Kirim</a></button>
+    </div>
+    <div class="footer">
+      <p>Quis Online</p>
+    </div>
+    <script src="value1.js"></script>
+  </body>
+</html>
