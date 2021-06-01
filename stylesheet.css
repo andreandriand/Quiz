@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+form{
+    padding: 80px 0px 20px 10px;
+    background-image: url("https://i.ibb.co/SPLR9TT/bg-content.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Bagian Soal dan Jawaban */
+.soal{
+    font:bold 14px Arial;
+    padding: 10px;
+    font-size: 17px;
+}
+.pilihan-jawaban{
+    font:normal 13px Arial;
+    padding: 0px 0px 5px 25px;
+    font-size: 16px;
+}
+form input{
+    margin: 10px;
+}
+
+
+
+/* Bagian Header */
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #353b48;
+    padding: 15px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    box-shadow: 1px 0px 10px black;
+}
+
+
+/* Bagian Timer */
+.box-timer{
+    display: flex;
+    width: 60%;  
+    justify-content: space-around;
+}
+.box-timer p{
+    margin: auto;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px;
+    color: white;
+}
+
+
+/* Bagian Tombol Timmer */
+.box-timer button{
+    width: 10%;
+    background-color: orange;
+}
+.box-timer button:hover{
+    background-color: rgb(255, 199, 94);
+}
+
+
+/* Bagian tombol submit */
+.submit{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://i.ibb.co/SPLR9TT/bg-content.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+}
+.submit button{
+    width: 70px;
+    height: 50px;
+    margin: 20px 50px;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 10px;
+}
+.submit a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+
+
+/* Tombol Keluar */
+.back{
+    background-color: rgb(250, 71, 71);
+    
+}
+.back:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+
+
+/* Tombol Kirim */
+.enter{
+    background-color: greenyellow;
+}
+.enter:hover{
+    cursor: pointer;
+    background-color: rgb(144, 221, 29);
+}
+
+
+/* Bagian Footer */
+.footer{
+    background-color: #353b48;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
